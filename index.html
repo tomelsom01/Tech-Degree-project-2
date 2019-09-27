@@ -10,13 +10,13 @@
 </head>
 <body>
     <header class="main-header clearfix">
-   <h1 class= "main-name clearfix">Student Name</h1>
-    <div class="main-nav">
+   <h1 id="home" class= "main-name clearfix">Student Name</h1>
+    <div class="main-nav clearfix">
     <ul class="nav">
         
-<li><a href="#">Home</a></li>
-<li><a href=".secondary-heading">Portfolio</a></li>
-<li><a href= ".main-footer"> Contact</a></li>
+<li><a href="#home">Home</a></li>
+<li><a href="#firstlink">Portfolio</a></li>
+<li><a href= "#secondlink"> Contact</a></li>
 
     </ul>
     </div>
@@ -24,12 +24,12 @@
 
 <img src="images/responsive-layout-profile.png" alt="Profile Picture" title="Personal Portrait" class="main-image">
 
-<p class="initial-content"> Hi! im a front end developer who loves responsive design and css. 
+<p class="initial-content clearfix"> Hi! im a front end developer who loves responsive design and css. 
     I've recently finished learning front end web development at Treehouse 
     and am excited to put my skills to use! </p>
 </header>
 <div class="clearfix">
-    <h2 class="secondary-heading">Portfolio</h2>
+    <h2 class="secondary-heading" id="firstlink">Portfolio</h2>
         <div class="first-line">
     <section class="marketing">
         <img src="images/portfolio-1.png" alt= "Marketing page information" title="Marketing">
@@ -48,8 +48,8 @@
 
         <h3>Travel App</h3>
         <p>This project compares travel times based on different transportation methodsand tells you the best one</p>
-    </div>
 </section>
+        </div>
     <div class="second-line">
         <section class="map">
         <img src="images/portfolio-4.png" alt="Maps of your favourite spots image" title = "do it yourself walking tour">
@@ -72,7 +72,7 @@
     </div>
     </div>
     <footer class="main-footer clearfix">
-<p><strong>Contact</strong></p>
+<p id="secondlink"><strong>Contact</strong></p>
 <p>if you are interested in chatting or want more information about what i've been working on, i'd love to hear from you</p>
 
 <p>Phone <strong>+1 (111) 555-1234</strong></p>
@@ -83,12 +83,12 @@
     
 
 <p class="student-footer clearfix"><strong>Student Name</strong></p>
-<p class="back-to-top"><strong><a href="#">Back To The Top</a></strong></p>
+<p class="back-to-top"><strong><a href="#home">Back To The Top</a></strong></p>
 
 <ul class="lower-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="h2">Portfolio</a></li>
-        <li><a href= "footer"> Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#firstlink">Portfolio</a></li>
+        <li><a href= "#secondlink"> Contact</a></li>
 </ul>
 
 </footer>

@@ -3,14 +3,16 @@
 * {
 
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;    
+    font-family: 'Nunito', 'Lora', 'Arimo';
+       
     }
     
     /*background and header section*/
+    
     .main-header {
     
         text-align: center;
-        border: 1px solid #f0f1f2;
+        border: 1px solid white;
         background: #f0f1f2;
         color: gray;
          
@@ -35,7 +37,7 @@
     background: white;
     padding-bottom: 10px;
     width: 5em;
-    margin: 5px auto;
+    margin: 15px auto;
     list-style-position: inside;
     color: black
     
@@ -44,6 +46,11 @@
     a:link{
     color:black;
     text-decoration: none;
+    }
+    a:hover {
+font-size: 150%;
+color: firebrick;
+
     }
     
         /* Main text section */
@@ -56,8 +63,9 @@
     h2,
     h3{
     text-align: center;
-    margin: 10 auto;
-    
+    margin: 0 auto;
+    padding: 20px 0;
+    color: purple;    
     }
 
     /* Footer Section */
@@ -81,15 +89,7 @@
     left: 5px;
     
     }
-        
-    
-    
-    .horizontal-line {
-    display: hidden;
-    width: 80%;
-    
-    }
-    .lower-nav{
+.lower-nav{
 float:right;
 padding-bottom: 10px;
 padding-right: 15px;
@@ -112,17 +112,13 @@ padding-right: 15px;
 
     /*media queiry*/
 
-    @media (max-width: 768){
+    @media (max-width: 768px){
         .lower-nav {
             display: none;
         }
 
-
     }
-    
- 
-   
-   
+       
     @media (min-width: 768px) {
     
     
@@ -219,18 +215,16 @@ padding-right: 15px;
     
         }
         .initial-content{
-            width: 45%;
-            max-width: 500px;
-        position: absolute;
-        bottom: 150px;
-        left: 40px;
+        width: 40%;
+        float: left;
         font-size: 20px;
         text-align: left;
+         
         }
         .main-image{
             width: 40%;
             float:right;
-            margin-left: 250px;
+        
         }
         .secondary-heading {
     
@@ -240,6 +234,7 @@ padding-right: 15px;
         .second-line{
             max-width: 1125px;
             margin: 0 auto;
+            padding-left: 50px;
         }
     
         
@@ -276,45 +271,4 @@ padding-right: 15px;
     
             }
     
-            /* @media (max-width: 320px){
-                .main-header {
-    
-                    text-align: center;
-                    border: 1px solid #f0f1f2;
-                    background: #f0f1f2;
-                    color: gray;
-                    margin: 30px;  
-                }
-                
-                .main-name{
-                    border: 2px solid white;
-                    font-size: 2rem;
-                    background: white;
-                    padding-top: 1px;
-                    width: 20%;
-                    margin: 0 auto;
-                    color: black;
-                    margin-top: 20px;
-                    
-                
-                }
-                .nav li {
-                list-style: none;
-                border: 2px solid white;
-                font-size: 2rem;
-                background: white;
-                padding-bottom: 10px;
-                width: 20%;
-                margin: 5px auto;
-                color: black
-                }
-              
-                img {
-                    width: 70%;
-                    display: block;
-                    margin: 0 auto;
-                    
-                    }
-                    
-    
-            } */
+           
