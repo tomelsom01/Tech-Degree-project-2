@@ -3,12 +3,15 @@
 * {
 
     box-sizing: border-box;
-    font-family: 'Nunito', 'Lora', 'Arimo';
+    
        
     }
     
     /*background and header section*/
-    
+    .body{
+
+        font-family: 'Nunito', 'Lora', 'Arimo';
+    }
     .main-header {
     
         text-align: center;
@@ -66,6 +69,13 @@ color: firebrick;
     margin: 0 auto;
     padding: 20px 0;
     color: purple;    
+    }
+    .center{
+width:99%;
+max-width:1250px;
+margin: 0 auto;
+padding: 0 1em;
+
     }
 
     /* Footer Section */
@@ -179,6 +189,16 @@ padding-right: 15px;
         width: 45%;
         float: right;
     }
+    .communication {
+        width: 45%;
+        float: left;
+        
+    }
+    .originality{
+
+        width: 45%;
+        float: right;
+    }
     .back-to-top {
 
         display:none;
@@ -223,50 +243,68 @@ padding-right: 15px;
         }
         .main-image{
             width: 40%;
-            float:right;
+            float: right;
         
         }
         .secondary-heading {
     
             text-align: center;
+            
         }
-        .first-line,
-        .second-line{
-            max-width: 1125px;
+        .center{
             margin: 0 auto;
-            padding-left: 50px;
+            width: 99%;
+            max-width: 1250px;
+            padding: 0 1em;
+
+
         }
-    
+               
         
             .marketing{
                 width:30%;
                 float: left;
-                padding-left: 20px;
+                padding-left: 60px;
                 }
                 .search{
                 width:30%;
                 float: left;
-                padding-left: 20px;
+                padding-left: 60px;
                 }
                 .travel{
                     width: 30%;
                     float: left;
-                    padding-left: 20px;
+                    padding-left: 60px;
                 }
                 .map{
                     width: 30%;
                     float: left;
-                    padding-left: 20px;
+                    padding-left: 60px;
+                    margin-bottom: 100px;
                 }
                 .photo{
                     width: 30%;
                     float: left;
-                    padding-left: 20px;
+                    padding-left: 60px;
+                    margin-bottom: 100px;
                 }
                 .calculator{
                     width: 30%;
                     float: left;
-                    padding-left: 20px;
+                    padding-left: 60px;
+                    margin-bottom: 100px;
+                }
+
+                .communication {
+                    width: 45%;
+                    float: left;
+                    padding-left: 60px;
+                }
+                .originality{
+
+                    width: 45%;
+                    float: left;
+                    padding-left: 60px;
                 }
     
             }
