@@ -74,9 +74,9 @@ color: firebrick;
 width:99%;
 max-width:1250px;
 margin: 0 auto;
-padding: 0 1em;
-
     }
+
+      
 
     /* Footer Section */
     
@@ -94,9 +94,7 @@ padding: 0 1em;
     }
     
     .student-footer {
-    position: absolute;
-    bottom: 10px;
-    left: 5px;
+    float: left;
     
     }
 .lower-nav{
@@ -164,6 +162,13 @@ padding-right: 15px;
     
             text-align: center;
         }
+        .skillheading{
+            width: 20%;
+float: left;
+padding: 0 40%;
+margin-bottom: 10%;
+margin-left: 7%;
+        }
         .marketing{
     width:45%;
     float: left;
@@ -184,10 +189,12 @@ padding-right: 15px;
     .photo{ 
         width: 45%;
         float: left;
+        margin-bottom: 10%;
     }
     .calculator{
         width: 45%;
         float: right;
+        margin-bottom: 10%;
     }
     .communication {
         width: 45%;
@@ -259,52 +266,61 @@ padding-right: 15px;
 
 
         }
+        .skillheading {
+float:left;
+width: 20%;
+padding: 0 40%;
+margin-bottom: 5%;
+margin-left: 7%;
+ 
+
+        }
                
         
             .marketing{
-                width:30%;
+                width: 30%;
                 float: left;
-                padding-left: 60px;
+                padding-left: 5%;
                 }
                 .search{
-                width:30%;
+                width: 30%;
                 float: left;
-                padding-left: 60px;
+                padding-left: 5%;
                 }
                 .travel{
                     width: 30%;
                     float: left;
-                    padding-left: 60px;
+                    padding-left: 5%;
                 }
                 .map{
                     width: 30%;
                     float: left;
-                    padding-left: 60px;
-                    margin-bottom: 100px;
+                    padding-left: 5%;
+                    margin-bottom: 10%;
                 }
                 .photo{
                     width: 30%;
                     float: left;
-                    padding-left: 60px;
-                    margin-bottom: 100px;
+                    padding-left: 5%;
+                    margin-bottom: 10%;
                 }
                 .calculator{
                     width: 30%;
                     float: left;
-                    padding-left: 60px;
-                    margin-bottom: 100px;
+                    padding-left: 5%;
+                    margin-bottom: 10%;
                 }
 
                 .communication {
                     width: 45%;
                     float: left;
-                    padding-left: 60px;
+                    padding-left: 10%;
                 }
                 .originality{
 
                     width: 45%;
                     float: left;
-                    padding-left: 60px;
+                    padding-left: 10%;
                 }
     
             }
