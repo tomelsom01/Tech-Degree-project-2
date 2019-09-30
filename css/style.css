@@ -3,14 +3,13 @@
 * {
 
     box-sizing: border-box;
-    
-       
+        
     }
     
     /*background and header section*/
     .body{
 
-        font-family: 'Nunito', 'Lora', 'Arimo';
+        font-family: 'Nunito', 'Ariel', 'sans-serif';
     }
     .main-header {
     
@@ -27,23 +26,27 @@
         background: white;
         padding-top: 1px;
         width: 10em;
-        margin: 0 auto;
+        margin: 15px auto;
         color: black;
         margin-top: 20px;
         
-    
+    /* Navigation and links */
     }
     .nav li {
+        height: 3%;
     list-style: none;
     border: 2px solid white;
     font-size: 2rem;
     background: white;
     padding-bottom: 10px;
     width: 5em;
-    margin: 15px auto;
+    margin: 10px auto;
     list-style-position: inside;
-    color: black
-    
+    color: black;
+        
+    }
+    .nav{
+        padding-left: 0;
     }
 
     a:link{
@@ -56,25 +59,38 @@ color: firebrick;
 
     }
     
-        /* Main text section */
+    /* Images section */
 
     img {
         width:100%;
     }
     
+    .center{
+        width:99%;
+        max-width:1250px;
+        margin: 0 auto;
+            }
+
+            
+        /* Main text section */
     p,
     h2,
     h3{
     text-align: center;
-    margin: 0 auto;
-    padding: 20px 0;
+    margin: 10px auto;
+    padding: 10px 0;
     color: purple;    
     }
-    .center{
-width:99%;
-max-width:1250px;
-margin: 0 auto;
+
+    section {
+        min-height: 10px;
     }
+
+    .initial-content
+    p{
+        padding: 2px 0;
+    }
+    
 
       
 
@@ -97,6 +113,8 @@ margin: 0 auto;
     float: left;
     
     }
+
+    /* Footer Navigation */
 .lower-nav{
 float:right;
 padding-bottom: 10px;
@@ -129,7 +147,7 @@ padding-right: 15px;
        
     @media (min-width: 768px) {
     
-    
+        /* Header */
         .main-name{
             background: #f0f1f2;
             border: solid 1px #f0f1f2;
@@ -153,6 +171,8 @@ padding-right: 15px;
         text-align: left;
         font-size: 20px;
         }
+
+        /* Main Section */
         .main-image{
             width: 45%;
             float: right;
@@ -206,6 +226,8 @@ margin-left: 7%;
         width: 45%;
         float: right;
     }
+
+    /* Footer section */
     .back-to-top {
 
         display:none;
@@ -213,7 +235,9 @@ margin-left: 7%;
     }
     
     @media (min-width: 1024px){
-       .main-header{
+       
+       /* Header */
+        .main-header{
     position: relative;
     
        }
@@ -253,6 +277,8 @@ margin-left: 7%;
             float: right;
         
         }
+
+        /* Main Section */
         .secondary-heading {
     
             text-align: center;
